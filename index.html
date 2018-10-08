@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Site Index</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script src="js/Spinner.js"></script>
+    <script src="js/Particle.js"></script>
+    <link rel="stylesheet" type="text/css" media="screen" href="css/main.css" />
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css" integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt" crossorigin="anonymous">
+</head>
+<body class="background">
+    <canvas id="canv"></canvas>
+    <nav id="nav">
+        <ul>
+            <li><a href="mailto:rmalcolm911@gmail.com" target="_blank"><i class="far fa-envelope"></i></a></li>
+            <li><a href="https://www.instagram.com/malcolmrodrigues911/" target="_blank"><i class="fab fa-instagram"></i></a></li>
+            <li><a href="https://www.facebook.com/malcolm.rodrigues.9" target="_blank"><i class="fab fa-facebook"></i></a></li>
+            <li><a href="https://twitter.com/Rodz911" target="_blank"><i class="fab fa-twitter"></i></a></li>
+        </ul>
+    </nav>
+    <section id="section">
+        <ul>
+            <li onclick="background('Spinner')">Spinner</li>
+            <li onclick="background('Particles')">Particle Field</li>
+            <li>More coming soon</li>
+        </ul>
+    </section>
+    <div id="bottom-button">
+        <ul>
+            <li onclick="stopAnimations()">Back</li>
+        </ul>
+    </div>
+    <footer id="footer">
+        <p>Made by Malcolm Rodrigues</p>
+    </footer>
+    <script src="js/main.js"></script>
+</body>
+</html>
